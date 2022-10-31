@@ -1,0 +1,213 @@
+@font-face {
+    font-family: pop1;
+    src: url(fonts/poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: pop2;
+    src: url(fonts/poppins/Poppins-Light.ttf);
+}
+@font-face {
+    font-family: pop3;
+    src: url(fonts/poppins/Poppins-Bold.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: pop1;
+}
+
+.containerz{
+    height: 6800px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+} 
+.containerz1{
+    height: 2300px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+} 
+.containerz2{
+    height: 2195px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+} 
+.containerz3{
+    height: 1843px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+} 
+.containerz4{
+    height: 1343px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+} 
+
+
+
+
+
+
+
+.hero img{
+    width: 266px;
+    height: 244px;
+    position: absolute;
+    margin: 216px 0 0 457px;
+
+}
+.containera{
+    width: 100%;
+   
+}
+.containerb{
+    height: 400px;
+    width: 100%;
+
+}
+.hero video{
+    width: 138%;
+    margin: -21px 0 0 -210px;
+    padding: 0 0 0 0;
+} 
+#jinx{
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+#jinx:hover image{
+    opacity: 0.3;
+}
+.hero{
+    width: 100%;
+    height:auto;
+    }
+    
+    .white-text{
+      opacity: 0%; 
+      padding: 200px 0 0 0;
+
+    }
+
+    .white-text:hover{
+        color: rgb(255, 255, 255);
+        opacity: 100%;
+        font-size: 30px;
+     }
+
+    #helo{
+        margin: 40px;
+    width: 15px;
+        padding: 0 0 0 0;
+    }
+#oleh{
+    width: 20px;
+}
+.container2{
+    width: 145%;
+    margin: 285px 0 0 -220px;
+    padding: 0;
+    background-color: black;
+    height: 300px;
+}
+.container2 img{
+    margin: -100px 0 0 500px;
+    padding: 0 0 0 0;
+    animation-name: fries;
+    animation-delay:3s;
+    animation-duration: 5s;
+}
+@keyframes fries {
+    0%{
+        margin: 15px 0 0 500px;
+    }
+    100%{
+        margin: -100px 0 0 500px;
+    }
+}
+.ouja{
+    margin: -178px 0 0 810px;
+
+}
+.container2 h5{
+    font-size: 25px;
+
+}
+.container2 p{
+    font-size: 20px;
+
+}
+.rounded-soft {
+    border-radius: 25.375rem!important;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+#soup{
+    margin: 0 0 0 570px;
+    position: absolute;
+
+}
+#green{
+    margin: -100px 0 0 -70px;
+    position: absolute;
+}
+#breaker{
+    height: 100px;
+}
+#pizza2{
+    position: absolute;
+    margin: 0 0 0 0;
+    animation-name: rollIn;
+    animation-delay: 5s;
+    -webkit-animation-duration: 10s;
+    animation-duration: 15s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    
+}
+    @keyframes rollIn {
+        0% { 
+           opacity: 0; 
+           transform: translateX(-100%) rotate(-120deg); 
+        }
+        100% { 
+           opacity: 1; 
+           transform: translateX(0px) rotate(0deg); 
+        }
+     }
+     
+    
+     #anime0{
+         animation-name: rollIn;
+         -webkit-animation-duration: 10s;
+         animation-duration: 10s;
+         -webkit-animation-fill-mode: both;
+         animation-fill-mode: both;
+     }
+
+     .container10{
+        background-color: black;
+        width: 150%;
+        margin: 120px;
+        margin-left: -227px;
+     }
+     .container11 h4{
+        position: absolute;
+        margin: -76px 0 0 390px;        
+     }
+     .container11{
+        background-color: rgb(255, 255, 255);
+     
+     }
+     #green2{
+        position: absolute;
+        margin: 0 0 0 0;
+     }
